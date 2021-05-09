@@ -1,6 +1,6 @@
 ##Purpose
 
-The purpose of this project is to refactor a Microsoft Excel VBA code to collect total volume stock information in the year 2017 and 2018 and determine whether the stocks are worth investing. This process was initially executed in a similar format, but the goal is edit the previous code to improve the efficiency in the recent one.
+The purpose of this project is to refactor a Microsoft Excel VBA code to collect total volume stock information in the year 2017 and 2018 and determine whether the stocks are worth investing. This process was initially executed in a similar format, but the goal is editing the previous code to improve the efficiency in the recent one.
 
 ###The Data
 
@@ -69,8 +69,10 @@ TERP stock continuous to experience further decline. Consequently, it is advised
 
 ##Pros and Cons of Refactoring Code
 
-Refactoring helps make our code cleaner and more organized. A few advantages of a cleaner code include design and software improvement, debugging, and faster programming. It may also benefit other users who view our projects because it becomes easier to read, as it is more concise and straightforward. However, we do not always have the luxury to refactor our code due to disadvantages. These disadvantages may range from having applications that are too large to not having the proper test cases for the existing codes, which may ultimately pose some risk if we try to refactor our code.
+Refactoring helps make our code readable, organized and easily understandable. A few advantages of an organized and clean code entails design and software improvement, debugging, and faster programming. It also benefits other users who view projects on a later date as it is easier to read, more concise and straightforward. 
 
-The Advantages of Refactoring Stock Analysis
-The biggest benefit that occurred as a result of the refactoring was an decrease in macro run time. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. Attached below are the screenshots that indicate the run time for our new analysis.
+The cons of refactoring code includes introduction of bugs that may complicated the code and make it hard to debug, and also it can be time consuming.
+
+The Advantage of Refactoring Stock Analysis
+The most significant advantage of the refactoring was a decrease in macro run time. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. 
 
