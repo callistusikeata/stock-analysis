@@ -74,5 +74,6 @@ Refactoring helps make our code readable, organized and easily understandable. A
 The cons of refactoring code includes introduction of bugs that may complicated the code and make it hard to debug, and also it can be time consuming.
 
 The Advantage of Refactoring Stock Analysis
+
 The most significant advantage of the refactoring was a decrease in macro run time. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. 
 
