@@ -11,7 +11,6 @@ Data presented contains two charts with stock information on 12 different stocks
 I started by copying the code needed to create the input box, chart headers and ticker array. Activate the appropriate worksheet and followed the steps listed to set the refactoring structure.
 See below instruction and code as written in the file:
 
-
     '1a) Create a ticker Index
     tickerIndex = 0
 
@@ -26,16 +25,13 @@ See below instruction and code as written in the file:
     tickerStartingPrices(i) = 0
     tickerEndingPrices(i) = 0
     Next i
-    
-        
+       
     ''2b) Loop over all the rows in the spreadsheet.
     Worksheets("2017").Activate
     For i = 2 To RowCount
     
-    
         '3a) Increase volume for current ticker
-        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
-        
+        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value      
         
         '3b) Check if the current row is the first row with the selected tickerIndex.
         'If  Then
@@ -53,8 +49,7 @@ See below instruction and code as written in the file:
             If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
             tickerIndex = tickerIndex + 1
             End If
-            
-            
+               
         'End If
     
     Next i
@@ -67,14 +62,10 @@ See below instruction and code as written in the file:
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     
     Next i
-    
-
 
 According to findings, 2017 was a better year for most of the stock compared to 2018.
 Despite poor stock performances for 2018, few stocks like ENPH and RUN still maintained profitability with RUN being the most appreciated and profitable stock for the year.
 TERP stock continuous to experience further decline. Consequently, it is advised that the stock is taken off the books.
-
-
 
 ##Pros and Cons of Refactoring Code
 
