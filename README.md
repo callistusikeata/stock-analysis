@@ -34,7 +34,7 @@ See below instruction and code as written in the file:
     
     
         '3a) Increase volume for current ticker
-        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) +                  Cells(i, 8).Value
+        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
         
         
         '3b) Check if the current row is the first row with the selected tickerIndex.
@@ -48,8 +48,6 @@ See below instruction and code as written in the file:
          If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
          tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
          End If
-            
-    
 
             '3d Increase the tickerIndex.
             If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
@@ -73,10 +71,8 @@ See below instruction and code as written in the file:
 
 
 According to findings, 2017 was a better year for most of the stock compared to 2018.
-
 Despite poor stock performances for 2018, few stocks like ENPH and RUN still maintained profitability with RUN being the most appreciated and profitable stock for the year.
-
-TERP stock continuous to experience further decline. Consequently, it is advised that such stock is taken off the books.
+TERP stock continuous to experience further decline. Consequently, it is advised that the stock is taken off the books.
 
 
 
